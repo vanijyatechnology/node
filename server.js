@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
 
 // ✅ Correct redirect
 app.get("/vanijya", (req, res) => {
-  res.redirect("https://vanijyatechh.in");
+  res.redirect("https://vanijyatech.in");
 });
 
 app.listen(PORT, () => {
