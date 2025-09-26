@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000; // ✅ Important for Railway
 
 app.get("/", (req, res) => {
-  res.send("Hello from Railway!");
+  res.send("Hnji bhai sahab chal gaye ");
 });
 
 app.listen(PORT, () => {
